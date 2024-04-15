@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: IoT Ensemble Device Flow - Build and deploy - Azure Function App - Node.js 
+name: OpenBiotech Device Flow - Build and deploy - Azure Function App - Node.js 
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
 
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: .
-  AZURE_FUNCTIONAPP_NAME: fmt02-iot-devices-flow
+  AZURE_FUNCTIONAPP_NAME: od0-iot-devices-flow
   NODE_VERSION: 18.x
 jobs:
   build:
